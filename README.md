@@ -1,6 +1,6 @@
-# Installer un nouveau template Svelte, le routeur et initialiser Git
+# Installer un nouveau template Svelte & le déployer sur Vercel
 
-## Marche à suivre
+## Svelte
 
 cette commande crée un dossier "svelte-portfolio" dans lequel elle va préparer Svelte
 Nous pouvons choisir un autre nom pour notre dossier, à notre convenace. Ce sera ce dossier que nous transmettrons sur GitHub.
@@ -35,7 +35,7 @@ on l'appellera depuis `main.js`, en première position.
 
 Vos styles vont soit dans dans `app.css` pour le global, ou bien directement dans un composant svelte entre les balises `<style></style>`, les styles sont alors appliqués uniquement au composant qui les embarque (Sur le Web : "svelte scoped css" pour approfondir la question)
 
-# Développement du projet
+## Développement du projet
 
 Après la séquence de développement en local, votre projet est pret à etre déployé et vous faites un commit :
 
@@ -45,9 +45,9 @@ Après la séquence de développement en local, votre projet est pret à etre d�
 
 Puis vous passez à l'étape suivante.
 
-# Déploiement et mises à jour
+## Déploiement et mises à jour
 
-## Marche à suivre
+### Marche à suivre
 
 Il faut d'abord créer le dépot Github sur lequel on va pusher notre projet local, pour bénéficier de l'offre gratuite d'hébergement, il devra impérativement etre "Public".
 
