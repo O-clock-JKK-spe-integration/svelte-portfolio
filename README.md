@@ -53,9 +53,14 @@ Puis dans votre projet, à la racine, ouvrez un terminal et validez les commande
 
 Exemple de commande : `git remote add origin git@github.com:Mellifico/svelte-portfolio.git`
 
-Maintenant, précisez bien votre branche principale locale
+Maintenant, nommez bien votre branche principale locale comme celle du nouveau repo.
+NB : selon les nouvelles conventions Github, la branche principale d'un nouveau repo est maintenant "main" par défaut.
 
-`git branch -M master`
+`git branch -M main`
+
+Puis un premier push avec le lien entre les branches :
+
+`git push -u origin main`
 
 
 
