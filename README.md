@@ -15,7 +15,7 @@ Nous pouvons choisir un autre nom pour notre dossier, à notre convenace. Ce ser
 
 Ici, très important, on initialise Git en prévision du déploiement depuis le repo GitHub :
 
-Créer un fichier `README.md` à la racine du projet puis :
+nb: Créer un fichier `README.md` (s'il n'existe pas) à la racine du projet puis :
 
 `git init && git add -A && git commit -m "Initial commit"`
 
