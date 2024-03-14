@@ -34,7 +34,9 @@ Vos styles vont soit dans dans `app.css` pour le global, ou bien directement dan
 # Développement du projet
 
 Après la séquence de développement en local, votre projet est pret à etre déployé et vous faites un commit :
+
 `git add .`
+
 `git commit -m "un message de commit signifiant"`
 
 Puis vous passez à l'étape suivante.
@@ -60,7 +62,7 @@ Puis un premier push qui fait le lien entre les branches locale et distante :
 
 `git push -u origin main`
 
-Retourner sur Github voir votre dépot, rafraichissez la page si besoin, et vérifier qu'il contient bien maintenat votre projet.
+Retourner sur Github voir votre dépot, rafraichissez la page si besoin, et vérifier qu'il contient bien maintenant votre projet.
 
 ### Déployer sur Vercel
 
@@ -84,7 +86,9 @@ Vercel va alors faire toutes les opérations nécessaires automatiquement et dé
 Faites vos modifications en local, puis :
 
 `git add .`
+
 `git commit -m "message"`
+
 `git push`
 
 Vercel va alors mettre à jour votre site automatiquement, car il détecte vos push.
