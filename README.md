@@ -17,6 +17,9 @@ Ici, très important, on initialise Git en prévision du déploiement (déploiem
 Créer un fichier `README.md` à la racine du projet
 `git init && git add -A && git commit -m "Initial commit"`
 
+Rennommez votre branche master en main pour correspondre au nouveau standard Github
+`git branch -m master main`
+
 Puis on lance le serveur de dev avec vite (pour info, on appelle un script depuis package.json)
 `npm run dev`
 
@@ -34,7 +37,7 @@ Après la séquence de développement en local, votre projet est pret à etre d�
 `git add .`
 `git commit -m "un message de commit signifiant"`
 
- Puis vous passez à l'étape suivante.
+Puis vous passez à l'étape suivante.
 
 # Déploiement et mises à jour
 
@@ -42,10 +45,8 @@ Il faut d'abord créer le dépot Github sur lequel on va pusher notre projet loc
 
 NB : C'est pour cette raison que vous ne pourrez pas déployer un projet depuis le depot de la spé, tous étant "privés" par défaut.
 
-Créer un nouveau repo github depuis votre compte ave le bouton vert en haut à droite "New" : 
+Créer un nouveau repo github depuis votre compte ave le bouton vert en haut à droite "New" :
 choisir votre propre nom comme "Owner", puis le nommer comme votre repo local, choisissez le statut "Public", valider **sans rien changer** d'autres ("Create new repository")
-
-
 
 Puis dans votre projet, à la racine, ouvrez un terminal et validez les commandes git suivantes qui vont relier votre dépot local au repo nouvellement créé :
 
@@ -53,26 +54,40 @@ Puis dans votre projet, à la racine, ouvrez un terminal et validez les commande
 
 Exemple de commande : `git remote add origin git@github.com:Mellifico/svelte-portfolio.git`
 
-Maintenant, nommez bien votre branche principale locale comme celle du nouveau repo.
-NB : selon les nouvelles conventions Github, la branche principale d'un nouveau repo est maintenant "main" par défaut.
-
-`git branch -M main`
-
-Puis un premier push avec le lien entre les branches :
+Puis un premier push qui fait le lien entre les branches locale et distante :
 
 `git push -u origin main`
 
+Retourner sur Github voir votre dépot, rafraichissez la page si besoin, et vérifier qu'il contient bien maintenat votre projet.
 
+### Déployer sur Vercel
 
+SignUp sur [Vercel](https://vercel.com/) avec votre compte Github
 
-Relier votre compte Vercel à votre compte github
+Menu "Add New" en haut à droite > "Project"
 
+Puis depuis la liste que vous présente l'interface repérez votre nouveau repo et cliquer "import"
 
+Puis choisissez un nom qui servira dans l'url du sous-domaine gratuit fourni par Vercel. Votre site sera dsiponible à l'url :
 
+**votre-projet.vercel.app**
 
-Choisir depuis Vercel le repo à déployer
+Il sera probablement nécessaire par la suite d'acheter un nom de domaine (15€/mois) pour changer l'url gratuite, à moins que vous publiiez un projet pour votre portfolio, ou bien pour d'autres raisons qui ne nécessite pas de domaine particulier.
 
-Déployez !
+Une fois le nom choisi, ne changez rien d'autre et cliquer "Deploy" en bas.
+Vercel va alors faire toutes les opérations nécessaires automatiquement et déployer votre site. Vous serez amené à une page avec une capture d'écran de votre site que vous pourrez cliquer pour vous rendre sur l'url. Le site fait maintenant partie de votre "dashboard".
+
+### Pour mettre à jour le code de votre site sur le Web :
+
+Faites vos modifications en local, puis :
+
+`git add .`
+`git commit -m "message"`
+`git push`
+
+Vercel va alors mettre à jour votre site automatiquement, car il détecte vos push.
+
+Et voilà.
 
 ## Que faire après
 
