@@ -18,11 +18,11 @@ Créer un fichier `README.md` à la racine du projet puis :
 
 `git init && git add -A && git commit -m "Initial commit"`
 
-Rennommez votre branche master en main pour correspondre au nouveau standard Github :
+Renommez alors votre branche master en main pour correspondre au nouveau standard Github :
 
 `git branch -m master main`
 
-Puis on lance le serveur de dev avec vite (pour info, on appelle un script depuis package.json) :
+lancez le serveur de dev avec vite (pour info, on appelle un script depuis package.json) :
 
 `npm run dev`
 
