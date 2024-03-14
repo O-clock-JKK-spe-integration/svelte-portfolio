@@ -85,7 +85,7 @@ Il sera probablement nécessaire par la suite d'acheter un nom de domaine (15€
 Une fois le nom choisi, ne changez rien d'autre et cliquer "Deploy" en bas.
 Vercel va alors faire toutes les opérations nécessaires automatiquement et déployer votre site. Vous serez amené à une page avec une capture d'écran de votre site que vous pourrez cliquer pour vous rendre sur l'url. Le site fait maintenant partie de votre "dashboard".
 
-# Pour mettre à jour le code de votre site sur le Web (CI/CD):
+### Pour mettre à jour le code de votre site sur le Web (CI/CD):
 
 Faites vos modifications en local, puis :
 
