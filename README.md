@@ -52,7 +52,7 @@ Il faut d'abord créer le dépot Github sur lequel on va pusher notre projet loc
 
 _NB : C'est pour cette raison que vous ne pourrez pas déployer un projet depuis le depot de la spé, tous étant "privés" par défaut._
 
-Créer un nouveau repo github depuis votre compte ave le bouton vert en haut à droite "New" :
+Créer un nouveau repo github depuis votre compte avec le bouton vert en haut à droite "New" :
 **choisir votre propre compte comme "Owner"**, **puis nommer le nouveau repo comme votre repo local**, choisissez aussi le statut **"Public"**, puis valider sans rien changer d'autres ("Create new repository")
 
 Maintenant, dans votre projet, à la racine, ouvrez un terminal et validez les commandes git suivantes qui vont relier votre dépot local au repo nouvellement créé :
@@ -79,7 +79,7 @@ Puis sur la page du projet, choisissez un nom qui servira dans l'url du sous-dom
 
 **votre-projet.vercel.app**
 
-Il sera probablement nécessaire par la suite d'acheter un nom de domaine (15€/mois) pour changer l'url gratuite, à moins que vous ne publiiez un projet pour votre portfolio, ou bien pour d'autres raisons qui ne nécessite pas de domaine particulier.
+Il sera probablement nécessaire par la suite d'acheter un nom de domaine (15€/an environ) pour changer l'url gratuite, à moins que vous ne publiiez un projet pour votre portfolio, ou bien pour d'autres raisons qui ne nécessitent pas de domaine particulier.
 
 Une fois le nom choisi, ne changez rien d'autre et cliquer "Deploy" en bas.
 Vercel va alors faire toutes les opérations nécessaires automatiquement et déployer votre site. Vous serez amené à une page avec une capture d'écran de votre site que vous pourrez cliquer pour vous rendre sur l'url. Le site fait maintenant partie de votre "dashboard".
