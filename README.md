@@ -13,7 +13,8 @@ Nous pouvons choisir un autre nom pour notre dossier, à notre convenace. Ce ser
 `npm install svelte-spa-router@~3.3.0`
 (en attendant une version 4 stable du router, on bloque sur des versions en dessous grace au tilde (~) avant le numéro de version.)
 
-Ici, très important, on initialise Git en prévision du déploiement depuis le repo GitHub
+Ici, très important, on initialise Git en prévision du déploiement depuis le repo GitHub :
+
 Créer un fichier `README.md` à la racine du projet puis :
 
 `git init && git add -A && git commit -m "Initial commit"`
