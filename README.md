@@ -15,12 +15,15 @@ Nous pouvons choisir un autre nom pour notre dossier, à notre convenace. Ce ser
 
 Ici, très important, on initialise Git en prévision du déploiement depuis le repo GitHub
 Créer un fichier `README.md` à la racine du projet puis :
+
 `git init && git add -A && git commit -m "Initial commit"`
 
 Rennommez votre branche master en main pour correspondre au nouveau standard Github :
+
 `git branch -m master main`
 
-Puis on lance le serveur de dev avec vite (pour info, on appelle un script depuis package.json)
+Puis on lance le serveur de dev avec vite (pour info, on appelle un script depuis package.json) :
+
 `npm run dev`
 
 Puis on nettoie le code par défaut du template avant de commencer :
